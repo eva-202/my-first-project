@@ -1,0 +1,92 @@
+body{
+    background: white;
+    padding: 0px;
+}
+.contenair{
+    display: block;
+   
+}
+/* propriete de la section 1: barre de navigation*/
+.contenair nav .nav_section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    top: 0px;
+    background-color: black;
+    color: white;
+}
+.contenair nav .nav_section .onglet{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+}
+.contenair nav .nav_section .onglet a{
+    text-decoration: none;
+    margin-right: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: pink;
+    margin-left: 40px;
+    margin-top: 15px;
+    transition: 1s;
+
+}
+.contenair nav .nav_section .onglet a:hover{
+    color: blue;
+    transition: 1s;
+    font-size: larger;
+    
+ }
+.contenair nav .nav_section .log_in{
+    width: 50px;
+    margin: 20px;
+    background-color: rgb(255, 0, 200);
+    text-decoration: none;
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} 
+.contenair nav .nav_section .log_in:hover{
+    transition: 1s;
+    font-size: larger;
+    background-color: blueviolet;
+}
+
+/* propriete de la section 2:le tableau*/
+
+.contenair .section2 caption{
+    text-align: center;
+    text-decoration: underline;
+}
+.contenair .section2 table{
+    border:  2px solid;
+    border-radius: 15px;
+    width: 1000px;
+    height: 300px;
+    background-color: rgba(185, 255, 202, 0.5);
+   
+}
+.contenair .section2 table th{
+    background-color: greenyellow;
+    text-align: center;
+    font-size: 30px;
+
+}
+.contenair .section2 table tr{
+    border: 0px;
+    text-align: center;
+    font-size: 30px;
+}
+/*propriete pour le formulaire*/
+.contenair .formulaire form{
+    background-color: rgba(205, 50, 166, 0.164);
+}
+.contenair .formulaire p{
+    text-align: left;
+}
+
+textarea{
+    width: 300px;
+    height: 100px;
+    justify-content: center;
+
+}

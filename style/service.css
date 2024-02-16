@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+body
+{
+    background-image:url("https://services.meteored.com/img/article/reducao-do-co2-emitido-pela-avia-ao-338871-1_768.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    margin:0px;
+    color: #fff;
+    padding: 0px;
+    font-family: 'lato', sans-serif;
+}  
+body .page
+{
+    /*margin: 20px 80px;*/
+}
+nav
+{
+    display: flex;
+    flex-wrap : wrap;
+    justify-content: space-between;
+    position: sticky;
+    background-color:transparent;
+    padding: 10px 0px;
+    top:10pxpx;
+    width: 100%;
+}
+
+nav .logo
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    margin-left: 20px;
+
+}
+nav .logo a{
+    margin-right: 2px;
+    cursor: pointer;
+    width: 10px;
+}
+.page nav .logo img{
+    float: left;
+    width: 60px;
+    height: auto;
+    border-radius: 20px;
+} 
+.page .nav_section{
+    margin-left: 200px;
+}
+.page .body{
+    margin-left: 1px;
+    margin-right: 1px;
+}
+.page .nav_section .menu{
+    margin-right: 80px;
+}
+/* atteindre la div= nav-section afin de disposer les onglets de facon lineaire*/
+.page .nav_section .menu li{
+    display: inline-block;
+    padding: 10px 20px 10px 10px;
+    width: 35px;
+   
+}
+/* donner des bordures aux onglets et annuler le soulignement*/
+.page .nav_section .menu .menu-item{
+    text-decoration: none;
+    border-radius: 15px;
+    width: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    transition: 1s;
+}
+
+.page .nav_section .menu .menu-item:hover{
+    color: #f54266;
+    font-size: larger;
+}
+/* positionner le log in*/
+.page nav .log_in
+{
+    text-decoration: none;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 15px 40px  ;
+    background-color: #f54266;
+    margin-right: 30px;
+    margin-top: 13px;
+    transition: 1s;
+}
+.page nav .log_in:hover{
+    color: #fff;
+    background-color: rgb(35, 35, 228);
+    font-size: larger;
+
+}
+.page .body{
+    display: inline-block;
+}
+.page .body .partie1 h1{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    font-style: oblique;
+    color: rgb(8, 8, 233);
+    padding: 20px;
+    transition :transform 2.5s;
+}
+   
+.page .body .partie2 {
+    display: block
+    justify-content: left;
+    padding-bottom: 0px;
+    width: 1400px;
+    height: auto;
+}
+.page .body .partie2 .gallery{
+    
+    margin-bottom: 100px;
+    /*flex-wrap: wrap;
+    justify-content: space-between;
+    /*margin-left: 2px;
+    margin-right: 2px;*/
+}
+.page .body .partie2 .gallery a img{
+    width: 300px;
+    height: 250px;
+    margin-left: 10px;
+    margin-right: 2px;
+    padding-bottom: 3px;
+
+}
+.page .body .partie2 .gallery a:hover{
+    transition: 1s;
+    /*border: 1px solid #070707;*/
+    margin-bottom: 20px;
+
+}
+.page .body .partie2 .gallery a img:hover{
+    width: 300px;
+    height: 250px;
+    transition: 2s;
+    border: 1px solid #0c0c0c;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 2px;
+    padding-bottom: 3px;
+
+}
+
+.page .body .boutton{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    background-color: pink;
+    text-decoration: none;
+}
+.page .body .boutton a{
+    background-color: pink;
+    text-decoration: none;
+    transition: 1s;
+    height: 20px;
+}
+.page .body .boutton a:hover {
+    background-color: rgb(35, 35, 228);
+    font-size: larger;
+    width: 30px;
+    list-style-type: none; 
+}
+footer {
+    background-color: #cdeef793;
+    padding: 25px 10px ;
+    color: #1a1a1a;
+}
+footer .colonnes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.colonnes .colonne h4{
+    color:#f54266;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       
+}
+footer .colonnes .colonne p i{
+    color:#e7e0e2; 
+    width: 20px;
+    height: auto;
+}
+footer .colonnes .colonne ul{
+    list-style-type: none;
+}
+footer .colonnes .colonne ul a {
+    text-decoration: none;
+    color: rgb(218, 218, 218); 
+}
+
+footer .colonnes .colonne {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+footer .couleur a{
+    color:#f54266;
+    text-decoration: none;
+    
+}
+footer .lign{
+    background-color:#f54266; 
+    height: 1px;
+    border: none;
+}
+
+.colonnes .colonne ul li{
+    margin-top: 13px;
+}
+
+.page .nav_section .surf .log_in{
+    -webkit-transition-: 2s;
+    color: red;
+}
+.page .nav_section .surf .log_in:hover{
+    color:#fff;
+    background-color: blue;
+}

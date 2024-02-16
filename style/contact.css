@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+body
+{
+    /*background-color: #f7fafaf6;*/
+    background-image:url("https://thumbs.dreamstime.com/b/concept-de-programmation-d-affaires-technologie-internet-codage-d%C3%A9veloppement-web-121903546.jpg");
+    margin:0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #dcdef5;
+    padding: 0px;
+    font-family: 'lato', sans-serif;
+}
+body .page
+{
+    margin: 20px 80px;
+}
+nav
+{
+    display: flex;
+    flex-wrap : wrap;
+    justify-content: space-between;
+    position: sticky;
+    color: #9876f7;
+    /*background-color:rgb(196, 147, 241);*/
+    padding: 10px 0px;
+    top:10px;
+    margin-bottom: 50px;
+}
+
+nav .logo
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+
+}
+nav .logo a{
+    margin-right: 10px;
+    cursor: pointer;
+    width: 10px;
+}
+.page nav .logo img{
+    float: left;
+    width: 60px;
+    height: auto;
+    border-radius: 20px;
+} 
+.page .nav_section{
+    margin-left: 200px;
+}
+
+/* atteindre la div= nav-section afin de disposer les onglets de facon lineaire*/
+.page .nav_section .menu li{
+    display: inline-block;
+    padding: 10px 20px 10px 10px;
+    width: 35px;
+}
+/* donner des bordures aux onglets et annuler le soulignement*/
+.page .nav_section .menu .menu-item{
+    text-decoration: none;
+    border-radius: 15px;
+    width: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    transition: 1s;
+}
+
+.page .nav_section .menu .menu-item:hover{
+    color: #f54266;
+    font-size: larger;
+    border: 3px solid;
+    border-color: #f54266;
+}
+/* positionner le log in*/
+.page nav .log_in
+{
+    text-decoration: none;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 15px 40px  ;
+    background-color:transparent;
+    margin-right: 30px;
+    margin-top: 13px;
+    transition: 1s;
+}
+.page nav .log_in:hover{
+    color: #fff;
+    background-color: rgb(35, 35, 228);
+    font-size: larger;
+
+}
+.page .body{
+    display: flex;
+
+}
+.page .body .partie1{
+    display: block;
+    top: 2px;
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+    
+}
+.page .body .partie1 .langage{
+    display: block;
+    mask-position: absolute;
+    list-style-type: none;
+
+}
+.page .body .partie1 .langage a{
+    text-decoration: none;
+    transition: 1s;
+}
+.page .body .partie1 .langage a li{
+margin-bottom: 40px;
+color:rgb(240, 199, 17);
+font-size: larger;
+padding  :30px;
+
+}
+.page .body .partie1 .langage a li:hover{
+background-color: rgb(85, 85, 240);
+border-color: #dcdef5;
+border: solid;
+}
+.page .body .partie1 .langage a:hover{
+    
+    transition: 1s;
+    font-size: larger;
+}
+.body h1{
+    text-align: center;
+    font-size: 60px;
+    padding: 150px;
+    transition :transform 2.5s;
+}
+ .body .boutton a{
+    background-color: pink;
+    text-decoration: none;
+    transition: 1s;
+    width: 30px;
+    height: 30px;
+}
+.body .boutton a:hover {
+    transition: 1s;
+    background-color: blue;
+    font-size: larger;
+    width: 30px; 
+}
+footer {
+    background-color: #eef0f3ef;
+    padding: 25px 10px ;
+    color: rgb(19, 17, 17);
+}
+footer .colonnes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.colonnes .colonne h4{
+    color:#f54266;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       
+}
+footer .colonnes .colonne p i{
+    color: #f54266;
+    width: 20px;
+    height: auto;
+}
+.colonnes .colonne ul{
+    list-style-type: none;
+}
+.colonnes .colonne ul a {
+    text-decoration: none;
+    color: rgb(19, 17, 17); 
+}
+
+.colonnes .colonne {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+footer .couleur a{
+    color:#f54266;
+    text-decoration: none;
+    
+}
+footer .lign{
+    background-color:#f54266; 
+    height: 1px;
+    border: none;
+}
+.colonnes .colonne p img{
+    width: 20px;
+    height: auto;
+}
+.colonnes .colonne h4 img{
+    width: 20px;
+    height: auto; 
+} 
+.colonnes .colonne ul li{
+    margin-top: 13px;
+}
+/* la sourit ouvre le lien*/
+/*.page .nav_section .menu a:hover{
+color: blue;
+border-color: greenyellow;
+border-style: solid;
+padding: auto;
+}
+.page .nav_section .menu a:active{
+    background-color: greenyellow;
+}
+.page .nav_section .surf .log_in{
+    -webkit-transition-: 2s;
+    color: red;
+}
+.page .nav_section .surf .log_in:hover{
+    color:#fff;
+    background-color: blue;
+}*/

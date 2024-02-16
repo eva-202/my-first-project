@@ -1,0 +1,38 @@
+.conteneur{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.un{
+    background-color: green;
+    padding: 20px;
+    width: 200px;
+    
+
+}
+.deux{
+    background-color: aqua;
+    padding: 20px;
+    width: 200px;
+}
+.trois{
+    background-color: blue;
+    padding: 20px;
+    width: 200px;
+}
+.quatre{
+    background-color: bisque;
+    padding: 20px;
+    width: 200px;
+}
+.cinq{
+    background-color: blueviolet;
+    padding: 20px;
+    width: 200px;
+}
+.six{
+    background-color: brown;
+    padding: 20px;
+    width: 200px;
+}

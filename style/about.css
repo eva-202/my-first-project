@@ -1,0 +1,210 @@
+body{
+    background-image: url("https://static.pratique.fr/images/unsized/l-/l-amour--un-grand-sujet.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: auto;
+   /* padding: 0px;
+    margin: 0px;*/
+    color: rgb(158, 150, 150);
+    font-family: 'Times New Roman', Times, serif;
+}
+body .session{
+    margin: 0px 0px;
+    width: 100%;
+}
+/*display:flex wrap wrap permet de disposer les div 
+de facon lineaire et de les envoyer a la ligne si leur taille depasse la taille du conteneur*/
+ nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: sticky;
+    padding: 0px 0px;
+    top:0px ;
+    background-color:transparent;
+    width:100%;
+}
+nav .img_logo{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+}
+nav .img_logo a {
+    cursor: pointer;
+    width: 80px;
+    margin-right: 50px;
+}
+nav .img_logo a img{
+    width: 60px;
+    height: 60px;
+    margin-top: -1px;
+    margin-left: 40px;
+}
+nav a{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    color: #141414;
+}
+nav .panel .onglet{
+    display: flex;
+    justify-content: space-between;
+    
+    position: sticky;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 20px;
+    margin-left: 100px;
+    
+    
+} 
+.session nav .panel .onglet .menu {
+  /*color: #1a1a1a;*/
+  transition: 1s;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  ;
+ /* border-radius: 5cap;
+  border: 1px solid;
+  border-color: #f54266;
+  padding: 20px;
+  width: 50px;*/
+
+}
+.session nav .panel .onglet .menu:hover{
+    transition: 1s;
+    font-size: larger;
+    color: #42eff58f;
+    border: 2px solid;
+   border-color: #f54266;
+   padding:20px;
+   width: 50px;
+}
+ .session nav .enregistrer{
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    padding: 15px 40px  ;
+    background-color:transparent;
+    margin-right: 20px;
+    margin-top: 20px;
+    transition: 1s;
+    height: 27px;
+}
+.session  nav .enregistrer:hover{
+    background-color: #f542f5;
+    transition: 1s;
+    font-size: larger;
+}
+.session .global{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    width: 100%;
+}
+.session .global .partie1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: first baseline;
+    width: 350px;
+    height: 600px;
+    background-color:transparent;
+    padding-bottom: 20px;
+    margin-left: 50px;
+}
+
+
+.session .global .partie1 p{
+    color: #141414;
+    font-size: 40px;
+    transition :transform 2.5s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 80px;
+    
+}
+.session .global .partie1 p button{
+    width: 80px;
+    padding: 10px;
+    height: auto;
+    color: #f54266;
+    margin-right: 50px;
+        }
+.session .global .partie1 .last{
+width:300px ;
+height: 10px;
+padding: 10px;
+background-color: #379103e7;
+text-align: center;
+
+font-family:'Courier New', Courier, monospace
+}
+
+.session .global .partie2{
+    margin-bottom: 100px;
+}
+.session .global .partie2 p{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: #f54266;
+    margin-right: 80px;
+
+}
+ .session .global .partie1 .clic{
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+    padding: 05px;
+
+ }
+
+
+.session .global .partie1 .last .clic:hover{
+    transition: 1s;
+    font-size: larger;
+    
+    
+}
+footer{
+    margin: 0px 0px;
+    max-width: 1400px;
+    background-color:transparent;
+    padding: 25px 10px ;
+    color: rgb(12, 11, 11);}
+footer .colonne{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+footer .colonne .colone h4{
+    color: #f54266;
+}
+
+footer .colonne .colone p i{
+    color: #f54266;
+    width: 20px;
+    height: auto;
+}
+footer .colonne .colone ul a{
+    text-decoration: none;
+    list-style-type: none;
+    color:rgb(12, 12, 12);
+}
+footer .colonne .colone ul li{
+    margin-top:13px ;
+}
+
+footer hr{
+    background-color: #f54266;
+    height: 1px;
+    border: none;
+}
+footer .coule a{
+    color: #f54266;
+}
+
+
